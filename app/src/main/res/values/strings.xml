@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">handigoodman</string>
+    <string name="welcome">Welcome</string>
+    <string name="get_started">Get Started</string>
+    <string name="simple_view">Simple View</string>
+    <string name="optimize_view">Optimize View</string>
+    <string name="title_activity_simple_view">SimpleViewActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="calendar">Calendar</string>
+    <string name="group">Group</string>
+    <string name="profile">Profile</string>
+    <string name="search_for_services">Search for services</string>
 </resources>
