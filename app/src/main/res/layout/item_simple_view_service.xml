@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_margin="8dp"
+        android:background="@drawable/bg_service_item"
+        android:onClick="@{()-> listener.onItemClick(item)}"
+        android:paddingVertical="6dp">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/serviceImage"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:src="@drawable/door_lock_1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/serviceText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:gravity="center"
+            android:text="@{item.name}"
+            android:layout_marginHorizontal="4dp"
+            android:textColor="@color/black"
+            app:fontFamily="@font/open_sans"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/serviceImage" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <data>
+
+        <variable
+            name="listener"
+            type="com.bizzmanweb.handigoodman.base.RecycleViewItemClickListener" />
+
+        <variable
+            name="item"
+            type="com.bizzmanweb.handigoodman.simpleView.ui.home.model.ServiceUiModel" />
+    </data>
+</layout>

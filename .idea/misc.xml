@@ -5,15 +5,19 @@
       <map>
         <entry key="..\:/ionicProjects/handigoodman/app/src/main/res/drawable/bg_input.xml" value="0.24114583333333334" />
         <entry key="..\:/ionicProjects/handigoodman/app/src/main/res/drawable/bg_little_rounded_corner.xml" value="0.20833333333333334" />
+        <entry key="..\:/ionicProjects/handigoodman/app/src/main/res/drawable/bg_service_item.xml" value="0.20833333333333334" />
         <entry key="..\:/ionicProjects/handigoodman/app/src/main/res/drawable/bg_top_round.xml" value="0.20833333333333334" />
         <entry key="..\:/ionicProjects/handigoodman/app/src/main/res/layout/activity_main.xml" value="0.225" />
         <entry key="..\:/ionicProjects/handigoodman/app/src/main/res/layout/activity_simple_view.xml" value="0.225" />
         <entry key="..\:/ionicProjects/handigoodman/app/src/main/res/layout/app_small_header.xml" value="0.33" />
         <entry key="..\:/ionicProjects/handigoodman/app/src/main/res/layout/content_bottom_menu.xml" value="0.225" />
         <entry key="..\:/ionicProjects/handigoodman/app/src/main/res/layout/content_main.xml" value="0.225" />
+        <entry key="..\:/ionicProjects/handigoodman/app/src/main/res/layout/fragment_booking_address.xml" value="0.225" />
         <entry key="..\:/ionicProjects/handigoodman/app/src/main/res/layout/fragment_home.xml" value="0.225" />
         <entry key="..\:/ionicProjects/handigoodman/app/src/main/res/layout/fragment_splash.xml" value="0.25" />
         <entry key="..\:/ionicProjects/handigoodman/app/src/main/res/layout/fragment_view_option.xml" value="0.225" />
+        <entry key="..\:/ionicProjects/handigoodman/app/src/main/res/layout/fragmet_booking_address.xml" value="0.225" />
+        <entry key="..\:/ionicProjects/handigoodman/app/src/main/res/layout/item_simple_view_service.xml" value="0.225" />
         <entry key="..\:/ionicProjects/handigoodman/app/src/main/res/layout/search_box.xml" value="0.33" />
         <entry key="..\:/ionicProjects/handigoodman/app/src/main/res/menu/bottom_nav_menu.xml" value="0.225" />
       </map>

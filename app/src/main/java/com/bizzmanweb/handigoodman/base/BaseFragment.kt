@@ -40,7 +40,6 @@ abstract class BaseFragment<VB : ViewBinding> : Fragment(),
 
 
     override fun backBtnClick() {
-        Log.d("TAG", "backBtnClick: ")
-        findNavController().popBackStack()
+       activity?.onBackPressed()
     }
 }

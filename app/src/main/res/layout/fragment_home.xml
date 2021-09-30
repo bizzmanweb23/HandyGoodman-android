@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/white"
-    tools:context=".simpleView.ui.home.HomeFragment">
+    tools:context=".simpleView.ui.home.ui.HomeFragment">
 
     <include
         android:id="@+id/headerLayout"
@@ -27,8 +27,9 @@
         android:id="@+id/serviceRV"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_margin="16dp"
-        app:layoutManager="androidx.recyclerview.widget.StaggeredGridLayoutManager"
+        android:layout_margin="12dp"
+        tools:listitem="@layout/item_simple_view_service"
+        app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
         app:spanCount="3"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/searchLayout" />
