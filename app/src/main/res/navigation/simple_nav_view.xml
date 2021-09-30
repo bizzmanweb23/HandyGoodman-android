@@ -28,7 +28,16 @@
         tools:layout="@layout/fragment_calendar" />
     <fragment
         android:id="@+id/bookingAddressFragment"
-        android:name="com.bizzmanweb.handigoodman.simpleView.ui.bookingAddress.BookingAddressFragment"
+        android:name="com.bizzmanweb.handigoodman.simpleView.ui.bookingAddress.ui.BookingAddressFragment"
         android:label="BookingAddressFragment"
-        tools:layout="@layout/fragment_booking_address"/>
+        tools:layout="@layout/fragment_booking_address">
+        <action
+            android:id="@+id/action_bookingAddressFragment_to_thankYouFragment"
+            app:destination="@id/thankYouFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/thankYouFragment"
+        android:name="com.bizzmanweb.handigoodman.thank_you.ThankYouFragment"
+        android:label="ThankYouFragment"
+        tools:layout="@layout/fragment_thank_you"/>
 </navigation>

@@ -17,4 +17,7 @@
     <string name="phone_number">Phone number</string>
     <string name="location">Location</string>
     <string name="submit">Submit</string>
+    <string name="store">Store</string>
+    <string name="good_man">Good man</string>
+    <string name="handy_good_man">Handy Good man</string>
 </resources>

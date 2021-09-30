@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="wrap_content">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/goodman"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/goodman"
+        app:layout_constraintEnd_toStartOf="@+id/handyGoodman"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/storeText" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/handyGoodman"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:src="@drawable/goodman"
+        app:layout_constraintBottom_toBottomOf="@+id/goodman"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/goodman"
+        app:layout_constraintTop_toTopOf="@+id/goodman" />
+
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/storeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:text="@string/store"
+        android:textColor="@color/text_black"
+        android:textSize="18sp"
+        app:fontFamily="@font/open_sans"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/goodmanText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:text="@string/good_man"
+        android:textColor="@color/text_black"
+        app:fontFamily="@font/open_sans"
+        app:layout_constraintEnd_toEndOf="@+id/goodman"
+        app:layout_constraintStart_toStartOf="@+id/goodman"
+        app:layout_constraintTop_toBottomOf="@+id/goodman" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/handyGoodmanText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:text="@string/handy_good_man"
+        android:textColor="@color/text_black"
+        app:fontFamily="@font/open_sans"
+        app:layout_constraintEnd_toEndOf="@+id/handyGoodman"
+        app:layout_constraintStart_toStartOf="@+id/handyGoodman"
+        app:layout_constraintTop_toBottomOf="@+id/handyGoodman" />
+</androidx.constraintlayout.widget.ConstraintLayout>

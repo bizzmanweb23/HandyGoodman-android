@@ -8,18 +8,26 @@
         <entry key="..\:/ionicProjects/handigoodman/app/src/main/res/drawable/bg_service_item.xml" value="0.20833333333333334" />
         <entry key="..\:/ionicProjects/handigoodman/app/src/main/res/drawable/bg_top_round.xml" value="0.20833333333333334" />
         <entry key="..\:/ionicProjects/handigoodman/app/src/main/res/layout/activity_main.xml" value="0.225" />
+        <entry key="..\:/ionicProjects/handigoodman/app/src/main/res/layout/activity_optimize_view.xml" value="0.225" />
         <entry key="..\:/ionicProjects/handigoodman/app/src/main/res/layout/activity_simple_view.xml" value="0.225" />
         <entry key="..\:/ionicProjects/handigoodman/app/src/main/res/layout/app_small_header.xml" value="0.33" />
         <entry key="..\:/ionicProjects/handigoodman/app/src/main/res/layout/content_bottom_menu.xml" value="0.225" />
         <entry key="..\:/ionicProjects/handigoodman/app/src/main/res/layout/content_main.xml" value="0.225" />
         <entry key="..\:/ionicProjects/handigoodman/app/src/main/res/layout/fragment_booking_address.xml" value="0.225" />
         <entry key="..\:/ionicProjects/handigoodman/app/src/main/res/layout/fragment_home.xml" value="0.225" />
+        <entry key="..\:/ionicProjects/handigoodman/app/src/main/res/layout/fragment_optimize_home.xml" value="0.225" />
         <entry key="..\:/ionicProjects/handigoodman/app/src/main/res/layout/fragment_splash.xml" value="0.25" />
+        <entry key="..\:/ionicProjects/handigoodman/app/src/main/res/layout/fragment_thank_you.xml" value="0.22153846153846155" />
         <entry key="..\:/ionicProjects/handigoodman/app/src/main/res/layout/fragment_view_option.xml" value="0.225" />
         <entry key="..\:/ionicProjects/handigoodman/app/src/main/res/layout/fragmet_booking_address.xml" value="0.225" />
+        <entry key="..\:/ionicProjects/handigoodman/app/src/main/res/layout/item_booking_adderss_slider.xml" value="0.225" />
         <entry key="..\:/ionicProjects/handigoodman/app/src/main/res/layout/item_simple_view_service.xml" value="0.225" />
+        <entry key="..\:/ionicProjects/handigoodman/app/src/main/res/layout/optimize_view_header.xml" value="0.225" />
         <entry key="..\:/ionicProjects/handigoodman/app/src/main/res/layout/search_box.xml" value="0.33" />
+        <entry key="..\:/ionicProjects/handigoodman/app/src/main/res/layout/service_optimize_view.xml" value="0.1" />
+        <entry key="..\:/ionicProjects/handigoodman/app/src/main/res/layout/store_optimize_view.xml" value="0.225" />
         <entry key="..\:/ionicProjects/handigoodman/app/src/main/res/menu/bottom_nav_menu.xml" value="0.225" />
+        <entry key="..\:/ionicProjects/handigoodman/app/src/main/res/menu/optimize_bottom_menu.xml" value="0.225" />
       </map>
     </option>
   </component>
