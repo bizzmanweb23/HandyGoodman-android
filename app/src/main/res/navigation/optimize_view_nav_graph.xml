@@ -1,6 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/optimize_view_nav_graph">
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/optimize_view_nav_graph"
+    app:startDestination="@id/optimizeHomeFragment">
 
+    <fragment
+        android:id="@+id/optimizeHomeFragment"
+        android:name="com.bizzmanweb.handigoodman.optimizeView.ui.optimizeHome.OptimizeHomeFragment"
+        android:label="OptimizeHomeFragment"
+        tools:layout="@layout/fragment_optimize_home">
+        <action
+            android:id="@+id/action_optimizeHomeFragment_to_subFeatureFragment"
+            app:destination="@id/subFeatureFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/subFeatureFragment"
+        android:name="com.bizzmanweb.handigoodman.optimizeView.ui.subFreature.SubFeatureFragment"
+        android:label="SubFeatureFragment"
+        tools:layout="@layout/fragment_option_view_sub_feature">
+        <action
+            android:id="@+id/action_subFeatureFragment_to_bookingDateTimeFragment"
+            app:destination="@id/bookingDateTimeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/bookingDateTimeFragment"
+        android:name="com.bizzmanweb.handigoodman.optimizeView.ui.bookingDateTime.BookingDateTimeFragment"
+        android:label="BookingDateTimeFragment"
+        tools:layout="@layout/fragment_select_date_time"/>
 </navigation>

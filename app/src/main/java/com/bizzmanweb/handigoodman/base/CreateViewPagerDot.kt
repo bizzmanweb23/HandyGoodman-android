@@ -3,6 +3,7 @@ package com.bizzmanweb.handigoodman.base
 import android.content.Context
 import android.os.Handler
 import android.os.Looper
+import android.view.Gravity
 import android.widget.ImageView
 import android.widget.LinearLayout
 import androidx.appcompat.widget.LinearLayoutCompat
@@ -16,7 +17,8 @@ class CreateViewPagerDot(
     private val linearLayout: LinearLayoutCompat,
     private val totalPages: Int,
     private val viewpager: ViewPager2,
-    private val autoSlide: Boolean = false
+    private val autoSlide: Boolean = false,
+    private val gravity: Int = Gravity.START
 ) {
 
     private var currentPage = 0
@@ -42,6 +44,7 @@ class CreateViewPagerDot(
     ) {
 
         layoutDots.removeAllViews()
+        layoutDots.gravity = gravity
         for (i in 0 until totalPages) {
             val dot = ImageView(context)
             val layoutParams = LinearLayout.LayoutParams(35, 35)

@@ -11,9 +11,9 @@
         android:theme="@style/Theme.Handigoodman">
         <activity
             android:name=".simpleView.SimpleViewActivity"
-            android:theme="@style/Theme.MaterialComponents.NoActionBar"
             android:exported="true"
-            android:label="@string/title_activity_simple_view" />
+            android:label="@string/title_activity_simple_view"
+            android:theme="@style/Theme.MaterialComponents.NoActionBar" />
         <activity
             android:name=".MainActivity"
             android:exported="true"
@@ -24,6 +24,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name=".optimizeView.OptimizeViewActivity"
+            android:theme="@style/Theme.MaterialComponents.NoActionBar" />
 
         <meta-data
             android:name="preloaded_fonts"

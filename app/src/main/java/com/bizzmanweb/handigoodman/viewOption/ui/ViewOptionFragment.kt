@@ -5,6 +5,7 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import com.bizzmanweb.handigoodman.base.BaseFragment
 import com.bizzmanweb.handigoodman.databinding.FragmentViewOptionBinding
+import com.bizzmanweb.handigoodman.optimizeView.OptimizeViewActivity
 import com.bizzmanweb.handigoodman.simpleView.SimpleViewActivity
 
 class ViewOptionFragment : BaseFragment<FragmentViewOptionBinding>(),
@@ -31,6 +32,8 @@ class ViewOptionFragment : BaseFragment<FragmentViewOptionBinding>(),
     }
 
     override fun onOptimizeViewBtnClicked() {
-
+        startActivity(
+            Intent(requireActivity(), OptimizeViewActivity::class.java)
+        )
     }
 }
