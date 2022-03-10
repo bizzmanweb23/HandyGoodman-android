@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Handigoodman">
         <activity
+            android:name=".RegisterActivity"
+            android:exported="false" />
+        <activity
             android:name=".simpleView.SimpleViewActivity"
             android:exported="true"
             android:label="@string/title_activity_simple_view"
@@ -27,6 +30,11 @@
 
         <activity
             android:name=".optimizeView.OptimizeViewActivity"
+            android:theme="@style/Theme.MaterialComponents.NoActionBar" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false"
+            android:label="@string/title_activity_simple_view"
             android:theme="@style/Theme.MaterialComponents.NoActionBar" />
 
         <meta-data

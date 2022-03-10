@@ -32,6 +32,18 @@
         android:label="BookingAddressFragment"
         tools:layout="@layout/fragment_booking_address">
         <action
+            android:id="@+id/action_bookingAddressFragment_to_LoginFragment"
+            app:destination="@id/loginFragement" />
+        <action
+            android:id="@+id/action_bookingAddressFragment_to_thankYouFragment"
+            app:destination="@id/thankYouFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/loginFragement"
+        android:name="com.bizzmanweb.handigoodman.simpleView.ui.login.LogInFragment"
+        android:label="LogInFragment"
+        tools:layout="@layout/log_in_fragment">
+        <action
             android:id="@+id/action_bookingAddressFragment_to_thankYouFragment"
             app:destination="@id/thankYouFragment" />
     </fragment>

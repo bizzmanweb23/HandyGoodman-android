@@ -1,13 +1,16 @@
 package com.bizzmanweb.handigoodman.simpleView.ui.bookingAddress.ui
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
+import com.bizzmanweb.handigoodman.LoginActivity
 import com.bizzmanweb.handigoodman.base.BaseFragment
 import com.bizzmanweb.handigoodman.base.CreateViewPagerDot
 import com.bizzmanweb.handigoodman.databinding.FragmentBookingAddressBinding
 import com.bizzmanweb.handigoodman.simpleView.ui.bookingAddress.model.getSliderImages
+import com.bizzmanweb.handigoodman.simpleView.ui.login.LogInFragment
 
 class BookingAddressFragment : BaseFragment<FragmentBookingAddressBinding>(),
     BookingAddressPageClickListener {
@@ -45,6 +48,12 @@ class BookingAddressFragment : BaseFragment<FragmentBookingAddressBinding>(),
     override fun onSubmitBtnClick() {
         findNavController().navigate(
             BookingAddressFragmentDirections.actionBookingAddressFragmentToThankYouFragment()
+        )
+    }
+
+    override fun loginHere() {
+        findNavController().navigate(
+            BookingAddressFragmentDirections.actionBookingAddressFragmentToLoginFragment()
         )
     }
 

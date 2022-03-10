@@ -19,4 +19,10 @@
         <item name="android:fontFamily">@font/open_sans</item>
         <item name="cornerSize">50%</item>
     </style>
+
+    <style name="Theme.AppButton.Box" parent="Widget.MaterialComponents.Button">
+        <item name="fontFamily">@font/open_sans</item>
+        <item name="android:fontFamily">@font/open_sans</item>
+        <item name="cornerSize">30%</item>
+    </style>
 </resources>

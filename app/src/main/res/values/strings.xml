@@ -22,7 +22,15 @@
     <string name="handy_good_man">Handy Good man</string>
     <string name="offers">Offers</string>
     <string name="services">Services</string>
-    <string name="appartment_door">Appartment Door</string>
+    <string name="appartment_door">Apartment Door</string>
     <string name="select_date">Select Date</string>
     <string name="select_time">Select Time</string>
+    <string name="password">Password</string>
+    <string name="already">Already have account? <font color='#2a9df4'>Login </font> here</string>
+    <string name="create_acc">Create Account</string>
+    <string name="complete_from_below_continue">Complete from below to continue</string>
+    <string name="register">Register</string>
+    <string name="login">Login</string>
+    <string name="sign_in">Sign In</string>
+    <string name="please_enter_below_details">Please enter below details</string>
 </resources>
