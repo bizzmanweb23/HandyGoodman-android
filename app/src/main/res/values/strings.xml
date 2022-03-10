@@ -1,3 +1,36 @@
 <resources>
     <string name="app_name">handigoodman</string>
+    <string name="welcome">Welcome</string>
+    <string name="get_started">Get Started</string>
+    <string name="simple_view">Simple View</string>
+    <string name="optimize_view">Optimize View</string>
+    <string name="title_activity_simple_view">SimpleViewActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="calendar">Calendar</string>
+    <string name="group">Group</string>
+    <string name="profile">Profile</string>
+    <string name="search_for_services">Search for services</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="phone_number">Phone number</string>
+    <string name="location">Location</string>
+    <string name="submit">Submit</string>
+    <string name="store">Store</string>
+    <string name="good_man">Good man</string>
+    <string name="handy_good_man">Handy Good man</string>
+    <string name="offers">Offers</string>
+    <string name="services">Services</string>
+    <string name="appartment_door">Apartment Door</string>
+    <string name="select_date">Select Date</string>
+    <string name="select_time">Select Time</string>
+    <string name="password">Password</string>
+    <string name="already">Already have account? <font color='#2a9df4'>Login </font> here</string>
+    <string name="create_acc">Create Account</string>
+    <string name="complete_from_below_continue">Complete from below to continue</string>
+    <string name="register">Register</string>
+    <string name="login">Login</string>
+    <string name="sign_in">Sign In</string>
+    <string name="please_enter_below_details">Please enter below details</string>
 </resources>
